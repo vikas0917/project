@@ -1,0 +1,9 @@
+Testing the APIs
+Use tools like Postman or cURL to test the endpoints.
+
+Initialize DB: GET http://localhost:3000/api/initialize
+List Transactions: GET http://localhost:3000/api/transactions?search=...&page=1&perPage=10
+Statistics: GET http://localhost:3000/api/statistics?month=January
+Bar Chart Data: GET http://localhost:3000/api/barchart?month=January
+Pie Chart Data: GET http://localhost:3000/api/piechart?month=January
+Combined Response: GET http://localhost:3000/api/combined?month=January
